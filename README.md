@@ -24,7 +24,8 @@ Synthetic features (not images):
 ## Run It
 
 ```bash
-jupyter notebook randlin.ipynb
+jupyter notebook randlin.ipynb ' ''' '
+
 
 ## What I Learned
 
