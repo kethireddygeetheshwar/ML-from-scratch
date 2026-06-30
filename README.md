@@ -24,6 +24,11 @@ Synthetic features (not images):
 ## Run It
 
 ```bash
-jupyter notebook randlin.ipynb '''
-makeknfsn
+jupyter notebook randlin.ipynb
+
+'''
+
+## WHAT I LEARNED
+  - How linear classifiers work at the mathematical level
+
 
