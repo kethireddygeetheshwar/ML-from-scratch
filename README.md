@@ -24,12 +24,6 @@ Synthetic features (not images):
 ## Run It
 
 ```bash
-jupyter notebook randlin.ipynb
-
-## WHAT I LEARNED
- How linear classifiers work at the mathematical level
- Why random initialization needs iterative refinement
- Feature scaling and its impact on convergence
- Visualizing decision boundaries in 2D feature space
- The gap between random guessing and trained models
+jupyter notebook randlin.ipynb '''
+makeknfsn
 
