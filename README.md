@@ -22,5 +22,16 @@ Synthetic features (not images):
 - Evaluates accuracy on test set
 
 ## Run It
-
+```bash
 jupyter notebook randlin.ipynb
+```markdown
+## What I Learned
+- How linear classifiers work at the mathematical level
+- Why random initialization needs iterative refinement
+- Feature scaling and its impact on convergence
+- Visualizing decision boundaries in 2D feature space
+## Next Steps
+- [ ] Add gradient descent for weight optimization
+- [ ] Implement perceptron learning rule
+- [ ] Compare with scikit-learn's LogisticRegression
+- [ ] Add more features (tail length, paw size)
