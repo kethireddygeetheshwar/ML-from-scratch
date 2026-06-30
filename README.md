@@ -26,10 +26,19 @@ Synthetic features (not images):
 ```bash
 jupyter notebook randlin.ipynb
 
-What I Learned
-  How linear classifiers work at the mathematical level
-  Why random initialization needs iterative refinement
-  Feature scaling and its impact on convergence
-  Visualizing decision boundaries in 2D feature space
-  The gap between random guessing and trained models
+## What I Learned
+
+ - How linear classifiers work at the mathematical level
+ - Why random initialization needs iterative refinement
+ - Feature scaling and its impact on convergence
+ - Visualizing decision boundaries in 2D feature space
+ - The gap between random guessing and trained models
+
+## Next Steps
+
+ - Add gradient descent for weight optimization
+ - Implement perceptron learning rule
+ - Compare with scikit-learn's LogisticRegression
+ 
+
 
