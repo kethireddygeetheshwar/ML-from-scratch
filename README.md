@@ -7,7 +7,7 @@ Implementation of basic Machine Learning algorithms using NumPy,scikit and matlp
 
 Cat vs Dog classification using a random linear classifier implemented from scratch in Python.
 
-## What's Inside
+
 - `randlin.ipynb` — Full implementation in Jupyter Notebook
 
 ## Dataset
