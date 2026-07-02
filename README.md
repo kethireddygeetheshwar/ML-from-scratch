@@ -9,6 +9,15 @@ Implementation of basic Machine Learning algorithms from scratch in Python using
 | Random Linear Classifier | Classification | `randlin.ipynb` |
 | Perceptron | Classification | `perceptron.ipynb` |
 
+### 3. Requirements Section
+
+```markdown
+## Requirements
+
+```bash
+pip install numpy matplotlib
+```
+
 ## Random Linear Classifier
 
 **Dataset:** Synthetic features (not images)
@@ -25,6 +34,23 @@ Implementation of basic Machine Learning algorithms from scratch in Python using
 ```bash
 jupyter notebook randlin.ipynb
 ```
+## Perceptron
+
+**Dataset:** Same synthetic cat vs dog data
+
+**How it works:**
+- Implements Rosenblatt's perceptron learning rule
+- Updates weights based on misclassification errors
+- Iteratively improves decision boundary until convergence
+- Visualizes boundary movement across training epochs
+
+**Run it:**
+```bash
+jupyter notebook perceptron.ipynb
+```
+
+
+
 ## What I Learned
  - How linear classifiers work at the mathematical level
  - Why random initialization needs iterative refinement
@@ -33,3 +59,4 @@ jupyter notebook randlin.ipynb
 ## Next Steps
  - [ ] Add gradient descent for weight optimization
  - [ ] Compare all algorithms with scikit-learn equivalents
+ - [ ] Add gradient descent
