@@ -1,40 +1,35 @@
 # ML-from-scratch
 
-ML algorithms from scratch
+Implementation of basic Machine Learning algorithms from scratch in Python using NumPy and matplotlib.
 
-Implementation of basic Machine Learning algorithms using NumPy, scikit-learn and matplotlib.
+## Algorithms
 
-## What's Inside
+| Algorithm | Type | File |
+|-----------|------|------|
+| Random Linear Classifier | Classification | `randlin.ipynb` |
+| Perceptron | Classification | `perceptron.ipynb` |
 
-- `randlin.ipynb` — Cat vs Dog classification using a random linear classifier implemented from scratch
+## Random Linear Classifier
 
-## Dataset
-
-Synthetic features (not images):
+**Dataset:** Synthetic features (not images)
 - **Whisker length** — measured in cm
 - **Ear flappiness index** — numerical score representing ear flexibility
 
-## How It Works
-
-- Generates synthetic cat vs dog data based on whisker length and ear flappiness
+**How it works:**
+- Generates synthetic cat vs dog data
 - Trains a linear classifier with random weight initialization
 - Plots decision boundary to visualize classification
 - Evaluates accuracy on test set
 
-## Run It
-
+**Run it:**
 ```bash
 jupyter notebook randlin.ipynb
 ```
-## What I Learned
+##What I Learned
  - How linear classifiers work at the mathematical level
  - Why random initialization needs iterative refinement
- - Feature scaling and its impact on convergence
  - Visualizing decision boundaries in 2D feature space
- - The gap between random guessing and trained models
+ - How perceptron learning rule updates weights based on errors
 ## Next Steps
- -  [ ] Add gradient descent for weight optimization
- -  [ ] Implement perceptron learning rule
- -  [ ] Compare with scikit-learn's LogisticRegression
-
-
+ - [ ] Add gradient descent for weight optimization
+ - [ ] Compare all algorithms with scikit-learn equivalents
