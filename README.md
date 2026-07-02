@@ -25,7 +25,7 @@ Implementation of basic Machine Learning algorithms from scratch in Python using
 ```bash
 jupyter notebook randlin.ipynb
 ```
-##What I Learned
+## What I Learned
  - How linear classifiers work at the mathematical level
  - Why random initialization needs iterative refinement
  - Visualizing decision boundaries in 2D feature space
